@@ -1,0 +1,331 @@
+<knowledge xmlns="http://knowledgeManagement/knowledge"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://knowledgeManagement/knowledge knowledge-1.0.xsd">
+     
+     <skill name="mvc" type="knowledge">
+          <label>MVC</label>
+          <description>Patron de conception séparant les problématiques en 3 composants: Modéle, Vue et Contrôleur. </description>            
+     </skill>
+         
+     <skill name="java_se" type="language">
+          <label>Java SE</label>
+          <description>Base du lanage Java.</description>            
+     </skill>
+
+     <skill name="java_me" type="language">
+          <label>Java ME</label>
+          <description>Langage Java destiné aux applications embarquées.</description>            
+     </skill>
+     
+     <skill name="java_ee" type="language">
+          <label>Java EE</label>
+          <description>Langage Java destiné aux applications web.</description>            
+     </skill>
+     
+     <skill name="java_swing" type="language">
+          <label>Java Swing</label>
+          <description>Langage Java destiné au développement d'IHM.</description>            
+     </skill>
+     
+     <skill name="java_fx" type="language">
+          <label>Java FX</label>
+          <description>Langage Java destiné au développement d'IHM.</description>            
+     </skill>
+     
+     <skill name="flex" type="language">
+          <label>Flex</label>
+          <description>Langage Flex destiné au développement d'IHM.</description>            
+     </skill>
+     
+     <skill name="rmi" type="protocol">
+          <label>RMI</label>
+          <description>Interface de communication Java pour appeler des méthodes distantes.</description>            
+     </skill>
+    
+     <skill name="ejb" type="knowledge">
+          <label>EJB</label>
+          <description>Pattern de conception permmettant de standardiser le déploiement de composants en JEE: Session, Entity, Message Driven.</description>            
+     </skill>
+     
+      <skill name="servlet" type="knowledge">
+          <label>Servlet</label>
+          <description>Connaissance du fonctionnement des servlets en JEE.</description>            
+     </skill>
+     
+     <skill name="database_sql" type="knowledge">
+          <label>SQL database</label>
+          <description>Outil de persistance s'appuyant sur une modélisation relationnelle et le langage SQL. Liste des éléments constituant une base de données: table, vue, index, curseur, procédure stockées...etc</description>            
+     </skill>
+     
+     <skill name="jndi" type="knowledge">
+          <label>JNDI</label>
+          <description>API de connexion à des annuaires permettant d'accéder de maniére uniforme à des ressources.</description>            
+     </skill>
+     
+      <skill name="jmx" type="knowledge">
+          <label>JMX</label>
+          <description>API permettant de contrôler le fonctionnement d'une application en cours d'éxécution.</description>            
+     </skill>    
+     
+     <skill name="pool" type="knowledge">
+          <label>Pool</label>
+          <description>Groupe de ressources de même type.</description>            
+     </skill>   
+     
+     <skill name="websphere" type="application_server">
+          <label>WebSphere</label>
+          <description>Serveur d'application JEE d'IBM.</description>            
+     </skill>     
+     
+     <skill name="weblogic" type="application_server">
+          <label>WebLogic</label>
+          <description>Serveur d'application JEE d'Oracle.</description>            
+     </skill>  
+     
+     <skill name="jboss" type="application_server">
+          <label>JBoss</label>
+          <description>Serveur d'application JEE de Red Hat.</description>            
+     </skill>  
+     
+     <skill name="glassfish" type="application_server">
+          <label>GlassFish</label>
+          <description>Serveur d'application JEE de SUN.</description>            
+     </skill>  
+     
+     <skill name="tomcat" type="application_server">
+          <label>Tomcat</label>
+          <description>Conteneur de servlets de la fondation Apache.</description>            
+     </skill> 
+     
+     <skill name="acid" type="knowledge">
+          <label>ACID</label>
+          <description>Régles de fonctionnement des transactions au sein d'une base de données relationnelle.</description>            
+     </skill>   
+     
+     <skill name="normalisation_database" type="knowledge">
+          <label>Normalisation SQL</label>
+          <description>Régles de normalisation des données au sein d'une base de données relationnelle.</description>            
+     </skill>       
+       
+     <skill name="jpa" type="knowledge">
+          <label>JPA</label>
+          <description>Pattern de conception et API Java pour la persistance des données.</description>            
+     </skill>  
+   
+     <skill name="jdbc" type="knowledge">
+          <label>JDBC</label>
+          <description>API Java pour la persistance des données.</description>            
+     </skill>
+     
+     <skill name="nosql" type="knowledge">
+          <label>NoSQL</label>
+          <description>Pattern de conception pour la persistance des données.</description>            
+     </skill>
+     
+     <skill name="sql" type="language">
+          <label>SQL</label>
+          <description>Langage permettant d'effectuer des opérations sur les bases de données relationnelles.</description>            
+     </skill>
+     
+     <skill name="pl_sql" type="language">
+          <label>PL/SQL</label>
+          <description>Langage permettant d'effectuer des opérations sur Oracle.</description>            
+     </skill>
+     
+     <skill name="oracle" type="database_relationnelle">
+          <label>Oracle</label>
+          <description>Base de données.</description>            
+     </skill>
+
+     <skill name="db2" type="database_relationnelle">
+          <label>DB2</label>
+          <description>Base de données.</description>            
+     </skill>
+     
+     <skill name="mysql" type="database_relationnelle">
+          <label>MySQL</label>
+          <description>Base de données.</description>            
+     </skill>
+     
+     <skill name="sybase" type="database_relationnelle">
+          <label>Sybase</label>
+          <description>Base de données.</description>            
+     </skill>
+     
+     <skill name="Hadoop" type="database_nosql">
+          <label>Hadoop</label>
+          <description>Base de données.</description>            
+     </skill>
+     
+     <skill name="mongodb" type="database_nosql">
+          <label>MongoDB</label>
+          <description>Base de données.</description>            
+     </skill>
+     
+     <skill name="cassandra" type="database_nosql">
+          <label>Cassandra</label>
+          <description>Base de données.</description>            
+     </skill>
+     
+     <skill name="hbase" type="database_nosql">
+          <label>HBase</label>
+          <description>Base de données.</description>            
+     </skill>
+     
+     <skill name="riak" type="database_nosql">
+          <label>Riak</label>
+          <description>Base de données.</description>            
+     </skill>
+   
+     <skill name="spring_jdbc" type="framework">
+          <label>Spring JDBC</label>
+          <description>Framework sur la gestion des accés à une base de données relationnelle en JDBC.</description>            
+     </skill>
+     
+     <skill name="jpa_hibernate" type="framework">
+          <label>JPA/Hibernate</label>
+          <description>Framework sur la gestion des accés à une base de données relationnelle en JPA.</description>            
+     </skill>
+    
+     <skill name="test_knowledge" type="knowledge">
+          <label>Tests</label>
+          <description>Connaissance des différents types de tests: unitaires, intégration, performance, robustesse...etc</description>            
+     </skill>
+     
+     <skill name="jvm" type="knowledge">
+          <label>JVM</label>
+          <description>Connaissance du fonctionnement de la JVM et de ses différents paramérages.</description>            
+     </skill>     
+     
+     <skill name="jmock" type="tools-mock">
+          <label>JMock</label>
+          <description>Utilitaire pour mocker des composants Java.</description>            
+     </skill>
+     
+     <skill name="easymock" type="tools-mock">
+          <label>EasyMock</label>
+          <description>Utilitaire pour mocker des composants Java.</description>            
+     </skill>
+     
+     <skill name="jmock" type="tools-mock">
+          <label>JMock</label>
+          <description>Utilitaire pour mocker des composants Java.</description>            
+     </skill>
+     
+     <skill name="mockito" type="tools-mock">
+          <label>Mockito</label>
+          <description>Utilitaire pour mocker des composants Java.</description>            
+     </skill>
+     
+     <skill name="unitils" type="tools-mock">
+          <label>Unitils</label>
+          <description>Utilitaire pour mocker des composants Java.</description>            
+     </skill>
+     
+     <skill name="junit" type="tools-unit-test">
+          <label>JUnit</label>
+          <description>Utilitaire pour implémenter des tests unitaires.</description>            
+     </skill>
+     
+     <skill name="testng" type="tools-unit-test">
+          <label>TestNG</label>
+          <description>Utilitaire pour implémenter des tests unitaires.</description>            
+     </skill>
+     
+     <skill name="selenium" type="tools-ihm-test">
+          <label>Selenium</label>
+          <description>Utilitaire pour implémenter des tests IHM.</description>            
+     </skill>
+     
+     <skill name="tellurium" type="tools-ihm-test">
+          <label>Tellurium</label>
+          <description>Utilitaire pour implémenter des tests IHM.</description>            
+     </skill>
+     
+     <skill name="jmeter" type="tools-perf-test">
+          <label>JMeter</label>
+          <description>Utilitaire pour implémenter des tests de performance.</description>            
+     </skill>
+     
+     <skill name="soapui" type="tools-perf-test">
+          <label>SoapUI</label>
+          <description>Utilitaire pour implémenter des tests de performance.</description>            
+     </skill>
+     
+     <skill name="jvisualvm" type="tools-analyse-test">
+          <label>JVisualVM</label>
+          <description>Utilitaire pour obtenir des métriques sur le fonctionnement de l'application.</description>            
+     </skill>
+     
+     <skill name="jprofiler" type="tools-analyse-test">
+          <label>Jprofiler</label>
+          <description>Utilitaire pour obtenir des métriques sur le fonctionnement de l'application.</description>            
+     </skill>
+     
+     <skill name="jprobe" type="tools-analyse-test">
+          <label>Jprobe</label>
+          <description>Utilitaire pour obtenir des métriques sur le fonctionnement de l'application.</description>            
+     </skill>
+     
+     <skill name="your_kit_java_profiler" type="tools-analyse-test">
+          <label>YKJP</label>
+          <description>Your Kit Java Profiler, utilitaire pour obtenir des métriques sur le fonctionnement de l'application.</description>            
+     </skill>
+     
+     <skill name="tptp" type="tools-analyse-test">
+          <label>TPTP</label>
+          <description>Utilitaire pour obtenir des métriques sur le fonctionnement de l'application.</description>            
+     </skill>
+     
+     <skill name="fitness" type="tools-analyse-test">
+          <label>Fitness</label>
+          <description>Utilitaire pour implémenter des tests fonctionnels.</description>            
+     </skill>
+          
+     <skill name="checkStyle" type="tools-quality">
+          <label>CheckStyle</label>
+          <description>Utilitaire pour standardiser le code d'une application.</description>            
+     </skill>
+     
+     <skill name="sonar" type="tools-quality">
+          <label>Sonar</label>
+          <description>Utilitaire pour obtenir des informations sur la qualité des développements.</description>            
+     </skill>
+     
+     <skill name="pmd" type="tools-quality">
+          <label>PMD</label>
+          <description>Utilitaire pour obtenir des informations sur la qualité des développements.</description>            
+     </skill>
+     
+     <skill name="clover" type="tools-quality">
+          <label>Clover</label>
+          <description>Utilitaire pour visualiser la couverture des tests unitaires.</description>            
+     </skill>
+     
+     <skill name="clearcase" type="tools-source-manager">
+          <label>ClearCase</label>
+          <description>Utilitaire pour gérer les sources d'une application.</description>            
+     </skill>
+     
+     <skill name="cvs" type="tools-source-manager">
+          <label>CVS</label>
+          <description>Utilitaire pour gérer les sources d'une application.</description>            
+     </skill>
+     
+     <skill name="svn" type="tools-source-manager">
+          <label>SVN</label>
+          <description>Utilitaire pour gérer les sources d'une application.</description>            
+     </skill>
+     
+     <skill name="git" type="tools-source-manager">
+          <label>git</label>
+          <description>Utilitaire pour gérer les sources d'une application.</description>            
+     </skill>
+     
+     <skill name="mercurial" type="tools-source-manager">
+          <label>Mercurial</label>
+          <description>Utilitaire pour gérer les sources d'une application.</description>            
+     </skill>     
+     
+     
+</knowledge>

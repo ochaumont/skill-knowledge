@@ -1,0 +1,58 @@
+<knowledge xmlns="http://knowledgeManagement/knowledge"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://knowledgeManagement/knowledge knowledge-1.0.xsd">
+
+              
+    <expertise name="rda">
+         <label>RDA (Rich Desktop Application)</label>  
+         <description>Conception d'application lourdes déployées en local.</description>
+         
+         <category name="knowledge">
+              <label>Connaissance</label>
+              <description></description>              
+              <skill ref="mvc"/>              
+         </category>          
+ 
+         <category name="language">
+              <label>Langage</label>
+              <description></description>              
+			  <skill ref="java_se"/>  
+			  <skill ref="java_swing"/>      
+			  <skill ref="flex"/> 
+	     </category> 
+	     
+         <category name="protocol">
+              <label>Protocole</label>
+              <description></description>              
+			  <skill ref="rmi"/>  			
+	     </category>                 
+        
+    </expertise>
+   
+    <expertise name="application-server">
+         <label>Serveurs d'applications</label>  
+         <description>Configuration des serveurs d'application.</description>
+         
+         <category name="knowledge">
+              <label>Connaissance</label>
+              <description></description>              
+              <skill ref="ejb"/>
+              <skill ref="servlet"/>
+              <skill ref="database_sql"/>
+              <skill ref="jndi"/>
+              <skill ref="jmx"/>
+              <skill ref="pool"/>                       
+         </category>          
+ 
+         <category name="application-server">
+              <label>Serveurs d'application</label>
+              <description></description>              
+			  <skill ref="websphere"/>  
+			  <skill ref="weblogic"/>      
+			  <skill ref="jboss"/> 
+			  <skill ref="glassfish"/>
+			  <skill ref="tomcat"/>
+	     </category> 
+        
+    </expertise>    
+</knowledge>

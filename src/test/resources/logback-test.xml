@@ -1,0 +1,25 @@
+<configuration scan="true" scanPeriod="30 seconds">
+
+  <property name="LOGS_FOLDER" value="target/logs" />
+ 
+   <appender name="log-stdout" class="ch.qos.logback.core.ConsoleAppender">
+	    <encoder>
+	      <pattern>%d{dd/MM/yyyy HH:mm:ss,SSS} [%thread] %-5level L:%logger{36} C:%class{36}- %m %throwable%n%n</pattern>
+	    </encoder>
+   </appender>
+
+   <appender name="log-file" class="ch.qos.logback.core.FileAppender">
+      <file>${LOGS_FOLDER}/my-application-test.log</file>     
+      <encoder>
+         <pattern>%d{dd/MM/yyyy HH:mm:ss,SSS} [%thread] %-5level L:%logger{36} C:%class{36}- %m %throwable{0}%n%n</pattern>
+      </encoder>
+   </appender>  
+
+   <logger name="com.ideo" additivity="true" level="INFO">       
+         <appender-ref ref="log-file" />
+   </logger>    
+   
+   <root level="WARN">
+      <appender-ref ref="log-stdout" />      
+   </root>
+</configuration>

@@ -1,0 +1,41 @@
+<knowledge xmlns="http://knowledgeManagement/knowledge"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://knowledgeManagement/knowledge knowledge-1.0.xsd">
+     
+     <consultant name="chaumont" firstname="olivier">          
+		<skill ref="mvc"                    level="5"/> 
+		<skill ref="java_se"                level="5"/>
+		<skill ref="java_me"                level="1"/>
+		<skill ref="java_ee"                level="5"/>
+		<skill ref="java_swing"             level="2"/>
+		<skill ref="java_fx"                level="0"/> 
+		<skill ref="flex"                   level="1"/>   
+		<skill ref="rmi"                    level="3"/>   
+		<skill ref="ejb"                    level="4"/>   
+		<skill ref="servlet"                level="5"/>   
+		  		 
+		<skill ref="database_sql"           level="3"/>   
+		<skill ref="jndi"                   level="3"/>   
+		<skill ref="jmx"                    level="2"/>   
+		<skill ref="pool"                   level="5"/>   
+		<skill ref="websphere"              level="3"/>   
+		<skill ref="weblogic"               level="3"/>   
+		<skill ref="jboss"                  level="2"/>   
+		<skill ref="glassfish"              level="2"/>  
+		<skill ref="tomcat"                 level="3"/>   
+		<skill ref="acid"                   level="5"/>   
+		
+		<skill ref="normalisation_database" level="4"/>   		
+		<skill ref="jpa"                    level="3"/>   
+		<skill ref="jdbc"                   level="4"/>   
+		<skill ref="nosql"                  level="1"/>   
+		<skill ref="sql"                    level="3"/>   
+		<skill ref="pl_sql"                 level="1"/>   
+		<skill ref="oracle"                 level="3"/>   
+		<skill ref="junit"                  level="5"/>   
+		<skill ref="selenium"               level="4"/>  
+     </consultant>
+ 
+         
+     
+</knowledge>

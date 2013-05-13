@@ -1,0 +1,20 @@
+<knowledge xmlns="http://knowledgeManagement/knowledge"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://knowledgeManagement/knowledge knowledge-1.0.xsd">
+             
+    <skillType name="knowledge"              label="Connaissance" />
+    <skillType name="language"               label="langage"      />
+    <skillType name="protocol"               label="Protocol" />
+    <skillType name="application_server"     label="Serveurs d'application" />
+    <skillType name="database_relationnelle" label="Base de données relationnelle" />
+    <skillType name="database_nosql"         label="Base de données NoSQL" />
+    <skillType name="framework"              label="Framework" />
+    <skillType name="tools-mock"             label="Outils de Mock" />
+    <skillType name="tools-unit-test"        label="Utilitaires pour tests unitaires" />
+    <skillType name="tools-ihm-test"         label="Utilitaires pour tests d'IHL" />
+    <skillType name="tools-perf-test"         label="Utilitaires pour tests de performance" />
+    <skillType name="tools-analyse-test"      label="Utilitaires pour analyser une application" />
+    <skillType name="tools-quality"          label="Utilitaires pour analyser la qualité du code" />
+    <skillType name="tools-source-manager"   label="Utilitaires pour gérer les sources " />
+       
+</knowledge>

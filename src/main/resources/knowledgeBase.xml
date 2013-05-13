@@ -1,0 +1,23 @@
+<knowledge xmlns="http://knowledgeManagement/knowledge"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://knowledgeManagement/knowledge knowledge-1.0.xsd">
+
+     
+     <skill name="skill_1" type="type1">
+          <label>label 1</label>
+          <description>description 1</description>            
+     </skill>
+         
+    <expertise name="expertise_1">
+         <label>label 1</label>  
+         <description>description 2</description>
+         <category name="category_1">
+              <label>label 1</label>
+              <description>description 1</description>              
+              <skill ref="skill_1"/>              
+           </category>          
+        
+    </expertise>
+   
+    
+</knowledge>

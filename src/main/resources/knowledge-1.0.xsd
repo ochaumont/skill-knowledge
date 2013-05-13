@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://knowledgeManagement/knowledge" 
+	elementFormDefault="qualified"  
+	xmlns="http://knowledgeManagement/knowledge">
+
+    <xs:complexType name="consultant">	
+	    <xs:sequence minOccurs="0" maxOccurs="unbounded">
+	         <xs:element name="skill" type="skillRef"/>	      
+	    </xs:sequence>	
+	    <xs:attribute name="name" type="xs:string" use="required"/>	 
+	    <xs:attribute name="firstname" type="xs:string" use="required"/>	       
+	</xs:complexType>
+
+	<xs:complexType name="skill">	
+	    <xs:sequence minOccurs="0" maxOccurs="1">
+	         <xs:element name="label" type="xs:string"/>
+	         <xs:element name="description" type="xs:string"/>
+	    </xs:sequence>	
+	    <xs:attribute name="name" type="xs:string" use="required"/>	 
+	    <xs:attribute name="type" type="xs:string" use="required"/>	       
+	</xs:complexType>
+	
+	<xs:complexType name="skillRef">		    
+	    <xs:attribute name="ref" type="xs:string" use="required"/>	
+	    <xs:attribute name="level" type="xs:int" use="optional"/>	      
+	</xs:complexType>
+	
+	<xs:complexType name="skillType">		    
+	    <xs:attribute name="name" type="xs:string" use="required"/>	
+	    <xs:attribute name="label" type="xs:string" use="required"/>	      
+	</xs:complexType>
+	
+	<xs:complexType name="category">	
+		 <xs:sequence>	   
+		    <xs:element name="label" type="xs:string" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="description" type="xs:string" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="skill" type="skillRef" minOccurs="0" maxOccurs="unbounded"/>
+		 </xs:sequence>
+		 <xs:attribute name="name" type="xs:string" use="required"/>			
+	</xs:complexType>
+
+	<xs:complexType name="expertise">	
+		<xs:sequence>
+		  <xs:element name="label" type="xs:string" minOccurs="0" maxOccurs="1"/>
+	      <xs:element name="description" type="xs:string" minOccurs="0" maxOccurs="1"/>	     
+	      <xs:element name="category" type="category" minOccurs="0" maxOccurs="unbounded"/>	    
+	    </xs:sequence> 	 	
+		<xs:attribute name="name" type="xs:string" use="required"/>								
+	</xs:complexType>
+	
+	<xs:element name="knowledge">  
+		<xs:complexType>	    	
+	    	<xs:sequence>    	
+	    	  <xs:element name="skillType" minOccurs="0" maxOccurs="unbounded" type="skillType"/>	
+	    	  <xs:element name="skill" minOccurs="0" maxOccurs="unbounded" type="skill"/>	    						
+	    	  <xs:element name="expertise" minOccurs="0" maxOccurs="unbounded" type="expertise"/>
+	    	  <xs:element name="consultant" minOccurs="0" maxOccurs="unbounded" type="consultant"/>	    			    		
+	    	</xs:sequence>	  
+		</xs:complexType>	    	
+    </xs:element>
+
+</xs:schema>
