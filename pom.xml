@@ -127,12 +127,14 @@
 					<outputDirectory>${project.build.directory}/generated-sources/jaxb</outputDirectory>
 					<schemaDirectory>${basedir}/src/main/resources</schemaDirectory>
                     <schemaFiles>knowledge-1.0.xsd</schemaFiles>
+					<npa>true</npa>
                 </configuration>
             </plugin>
 	
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
+				
                 <configuration>
                     <source>1.5</source>
                     <target>1.5</target>

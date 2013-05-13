@@ -30,6 +30,7 @@ public class TestSkillDAO{
     	assertNull(skillCreate.getId());
     	
     	skillCreate.setName("Java");
+    	skillCreate.setLabel("Java");
     	skillCreate.setDescription("langage de programation");
     	Skill skillRead = skillDAO.save(skillCreate);
     	assertNotNull(skillRead.getId());

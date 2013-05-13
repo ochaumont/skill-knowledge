@@ -90,18 +90,18 @@ public class TestDAO{
     	expertiseDAO.save(exp);
     	    	
     	List<Skill> allSkills = skillDAO.getAll();
-    	assertEquals(8, allSkills.size());
+    	assertEquals(73, allSkills.size());
     	
     	List<Category> allCategories = categoryDAO.getAll();
-    	assertEquals(3, allCategories.size());
+    	assertEquals(8, allCategories.size());
     	
     	List<Expertise> allExpertises = expertiseDAO.getAll();
-    	assertEquals(1, allExpertises.size());
+    	assertEquals(3, allExpertises.size());
     	
     	expertiseDAO.delete(exp);
     	
     	allSkills = skillDAO.getAll();
-    	assertEquals(8, allSkills.size());
+    	assertEquals(73, allSkills.size());
     	
     	allCategories = categoryDAO.getAll();
     	assertEquals(0, allCategories.size());
