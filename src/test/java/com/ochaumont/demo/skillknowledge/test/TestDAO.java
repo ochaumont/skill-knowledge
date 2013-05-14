@@ -104,10 +104,10 @@ public class TestDAO{
     	assertEquals(73, allSkills.size());
     	
     	allCategories = categoryDAO.getAll();
-    	assertEquals(0, allCategories.size());
+    	assertEquals(5, allCategories.size());
     	
     	allExpertises = expertiseDAO.getAll();
-    	assertEquals(0, allExpertises.size());
+    	assertEquals(2, allExpertises.size());
     	    	
     }
    
